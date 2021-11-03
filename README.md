@@ -1,6 +1,6 @@
 # Association Rules Minning Using Python
 
-Implementation of association rules minning algorithms(**Apriori**|**FPGrowth**) using python. As a part of hw1 code in NJU class.
+Implementation of association rules minning algorithms (**Apriori**|**FPGrowth**) using python. As a part of hw1 code in NJU class.
 
 ## Usage
 
