@@ -10,7 +10,7 @@ You can calculate the frequent items and mining the rules using clean code:
 from datasets import DataReader
 from algorithms import Itemmining
 data = DataReader("GROCERY")
-item_mining = Itemmining(da)
+item_mining = Itemmining(data)
 item_mining.get_frequent_items(min_sup=0.01, "Apriori")
 item_mining.get_rules(min_con=0.5)
 rules = item_mining.get_top_rules(50) 
