@@ -18,7 +18,7 @@ rules = item_mining.get_top_rules(50)
 
 If you want to try new dataset, you only need to put your data in folder `datasets` and modify `datasets/data_reader.py`.
 
-## Some Result
+## Some Result(NO CODE)
 
 ![GROCERY](result/imgs/GROCERY_time.png)
 ![UNIX](result/imgs/UNIX_time.png)
