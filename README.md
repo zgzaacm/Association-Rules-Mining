@@ -1,6 +1,6 @@
 # Association Rules Minning Using Python
 
-Implementation of association rules minning algorithms (**Apriori**|**FPGrowth**) using python. As a part of hw1 code in NJU class.
+Implementation of association rules mining algorithms (**Apriori**|**FPGrowth**) using python. As a part of hw1 code in NJU class.
 
 ## Usage
 
@@ -18,7 +18,7 @@ rules = item_mining.get_top_rules(50)
 
 If you want to try new dataset, you only need to put your data in folder `datasets` and modify `datasets/data_reader.py`.
 
-## Some Result(NO CODE)
+## Some Results(NO CODE)
 
 ![GROCERY](result/imgs/GROCERY_time.png)
 ![UNIX](result/imgs/UNIX_time.png)
