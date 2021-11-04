@@ -20,5 +20,5 @@ If you want to try new dataset, you only need to put your data in folder `datase
 
 ## Some Results(NO CODE)
 
-![GROCERY](result/imgs/GROCERY_time.png)
 ![UNIX](result/imgs/UNIX_time.png)
+![storage](result/imgs/UNIX_storage.png)

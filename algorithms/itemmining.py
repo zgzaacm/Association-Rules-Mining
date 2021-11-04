@@ -31,6 +31,7 @@ class Itemmining:
                 func(*args, **kwargs)
                 time_sum += time.time() - start
                 size, p = tracemalloc.get_traced_memory()
+                tracemalloc.stop()
                 peak += p - size
             avg_time = int(time_sum / Itemmining.test_times * 100) / 100.0 
             avg_KB = round(peak / 1024**2 / Itemmining.test_times)
